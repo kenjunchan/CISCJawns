@@ -3,8 +3,8 @@ package pkgExamples;
 public class ClassA 
 { 
 	// Fields
-	int a; //Declaring a to be of type int
-	int b;
+	private int a; //Declaring a to be of type int
+	public int b;
 	String name; //Declaring name to be of type String
 	
 	public ClassA() // default Constructor

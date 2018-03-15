@@ -19,5 +19,8 @@ public class Triangle extends Shape{
 	{
 		System.out.println(iColor);
 	}
-	
+	public double getBase()
+	{
+		return base;
+	}
 }
