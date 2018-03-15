@@ -1,6 +1,6 @@
 package pkgExamples;
 
-public class Triangle{
+public class Triangle extends Shape{
 	//declare two private double attributes, base and height
 	//create a constructor that initializes base and height given two double values
 	//write a calculateArea method that calculates and returns the area of the triangle
@@ -15,4 +15,9 @@ public class Triangle{
 	{
 		return ((base * height) / 2);
 	}
+	public void printiColor()
+	{
+		System.out.println(iColor);
+	}
+	
 }

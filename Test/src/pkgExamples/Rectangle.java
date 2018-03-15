@@ -1,6 +1,6 @@
 package pkgExamples;
 
-public class Rectangle{
+public class Rectangle extends Shape{
 	private double base;
 	private double height;
 	
